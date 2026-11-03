@@ -149,7 +149,7 @@ export default function Cake({ onNext }) {
       <div ref={mount} className="cake-canvas" onClick={() => readyRef.current && onNext()} />
       <div ref={fade} className="cake-fade" />
       <div className="grain" />
-      <p ref={hint} className="cake-hint" style={{ opacity: 0 }}>{config.cakeInstruction}</p>
+         <div ref={hint} className="cake-hint" style={{ opacity: 0 }}><p>{config.cakeInstruction}</p><button className="gold" onClick={(e) => { e.stopPropagation(); onNext() }}>Cut the cake</button></div>
       {ready && <button className="sr-btn" onClick={onNext}>Click the cake to continue</button>}
     </section>
   )
