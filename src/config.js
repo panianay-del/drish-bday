@@ -11,11 +11,9 @@ export const config = {
   // Put photos in public/images/ and set src, e.g. '/images/drishtie-1.jpg'.
   // While src is '' a labelled placeholder is shown. ratio = width / height of the photo.
   photos: [
-    { src: '', alt: 'Drishtie, photo 1', ratio: 3 / 4 },
-    { src: '', alt: 'Drishtie, photo 2', ratio: 4 / 5 },
-    { src: '', alt: 'Drishtie, photo 3', ratio: 1 },
-    { src: '', alt: 'Drishtie, photo 4', ratio: 4 / 5 },
-    { src: '', alt: 'Drishtie, photo 5', ratio: 3 / 4 },
+    { src: 'drish1', alt: 'Drishtie, photo 1', ratio: 3 / 4 },
+    { src: 'drish2', alt: 'Drishtie, photo 2', ratio: 4 / 5 },
+    { src: 'drish3', alt: 'Drishtie, photo 3', ratio: 1 },
   ],
 
   cakeInstruction: 'A little surprise awaits you. Click the cake to continue.',
