@@ -80,7 +80,7 @@ export default function Cake({ onNext }) {
       if (disposed) return
       const [alpha, bump] = frostingMaps(config.cakeLines)
       const txt = new THREE.Mesh(new THREE.PlaneGeometry(3.7, 3.7), new THREE.MeshStandardMaterial({
-        color: 0xfffaf0, roughness: 0.4, alphaMap: alpha, transparent: true, bumpMap: bump, bumpScale: 9, depthWrite: false }))
+        color: 0x0a0a0a, roughness: 0.4, alphaMap: alpha, transparent: true, bumpMap: bump, bumpScale: 9, depthWrite: false }))
       txt.rotation.x = -Math.PI / 2; txt.position.y = topY + 0.012; scene.add(txt)
     })
 
