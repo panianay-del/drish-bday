@@ -13,7 +13,6 @@ export const config = {
   photos: [
     { src: 'drish1', alt: 'Drishtie, photo 1', ratio: 3 / 4 },
     { src: 'drish2', alt: 'Drishtie, photo 2', ratio: 4 / 5 },
-    { src: 'drish3', alt: 'Drishtie, photo 3', ratio: 1 },
   ],
 
   cakeInstruction: 'A little surprise awaits you. Click the cake to continue.',
