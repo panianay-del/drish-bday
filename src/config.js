@@ -6,7 +6,7 @@ export const config = {
 
   // Put your music file in public/audio/ and set the path, e.g. '/audio/birthday.mp3'.
   // Leave as '' to use the built-in soft instrumental Happy Birthday (generated in the browser, no vocals).
-  musicSrc: '', // AUDIO PLACEHOLDER
+  musicSrc: '/audio/birthday.mp3', // AUDIO PLACEHOLDER
 
   // Put photos in public/images/ and set src, e.g. '/images/drishtie-1.jpg'.
   // While src is '' a labelled placeholder is shown. ratio = width / height of the photo.
